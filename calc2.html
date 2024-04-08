@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Expression Calculator</title>
+	<link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="calc2.css">
+    <script src="calc2.js"></script>
+</head>
+
+<body>
+    <div id="container">
+		<div id="title">Expression Calculator</div>
+		<div id="info">
+            Mikko K&auml;renlampi (mikko.karenlampi@pm.me)<br>
+            Last updated: 8.4.2024
+        </div>
+        <div id="ops">
+		    Operators: + - * / ^ ()<br>
+            Functions: sqrt sin cos tan asin acos atan<br>
+		    Constants: pi e<br>
+        </div>
+        <div id="dev">
+            <input type="checkbox" id="dm"> show postfix expression
+        </div>
+		<div id="is">
+		    <input type="text" id="eq" size="40">
+		    <button onclick="calc();">Calculate</button>
+        </div>
+		<div>
+		    <table id="results"></table>
+        </div>
+    </div>
+</body>
+
+</html>
