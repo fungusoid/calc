@@ -334,7 +334,8 @@ const fnct = {
     "tan": Math.tan,
     "asin": Math.asin,
     "acos": Math.acos,
-    "atan": Math.atan
+    "atan": Math.atan,
+    "log": Math.log
 };
 
 class Calculator
